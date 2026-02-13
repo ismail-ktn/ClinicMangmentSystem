@@ -1,9 +1,14 @@
-package javaapplication5;
+package javaapplication5.data;
 
 import java.util.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.io.*;
+import javaapplication5.model.Appointment;
+import javaapplication5.model.LabTest;
+import javaapplication5.model.Medicine;
+import javaapplication5.model.Patient;
+import javaapplication5.model.User;
 
 public class ClinicData {
     private static ClinicData instance;
@@ -56,7 +61,6 @@ public class ClinicData {
         return instance;
     }
     
-    // ============== LOAD DATA ==============
     private void loadData() {
         loadUsers();
         loadPatients();
@@ -139,7 +143,6 @@ public class ClinicData {
         }
     }
     
-    // ============== SAVE DATA ==============
     private void saveData() {
         saveUsers();
         savePatients();
@@ -218,6 +221,10 @@ public class ClinicData {
         }
     }
     
+              
+                           /*----------------- SERVICES -------------------*/
+    
+    
     // ============== USER METHODS ==============
     public boolean authenticate(String email, String password) {
         User user = users.get(email);
@@ -241,7 +248,6 @@ public class ClinicData {
         return true;
     }
     
-    // DELETE USER METHOD
     public boolean deleteUser(String email) {
         if(users.containsKey(email)) {
             users.remove(email);

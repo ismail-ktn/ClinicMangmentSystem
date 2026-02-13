@@ -1,5 +1,7 @@
-package javaapplication5;
+package javaapplication5.ui;
 
+import javaapplication5.ui.SignupScreen;
+import javaapplication5.ui.WelcomeScreen;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableCellRenderer;
@@ -8,6 +10,10 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
+import javaapplication5.model.Appointment;
+import javaapplication5.data.ClinicData;
+import javaapplication5.model.Patient;
+import javaapplication5.model.User;
 import static javax.swing.WindowConstants.EXIT_ON_CLOSE;
 
 public class ReceptionDashboard extends JFrame {

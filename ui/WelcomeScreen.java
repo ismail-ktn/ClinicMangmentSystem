@@ -1,4 +1,4 @@
-package javaapplication5;
+package javaapplication5.ui;
 
 import javax.swing.*;
 import java.awt.*;

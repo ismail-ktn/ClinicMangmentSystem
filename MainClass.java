@@ -1,6 +1,7 @@
 
 package javaapplication5;
 
+import javaapplication5.ui.WelcomeScreen;
 import javax.swing.*;
 import java.awt.*;
 

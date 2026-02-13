@@ -1,4 +1,4 @@
-package javaapplication5;
+package javaapplication5.model;
 
 public class Patient {
     public String patientId;

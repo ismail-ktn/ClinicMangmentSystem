@@ -1,10 +1,16 @@
-package javaapplication5;
+package javaapplication5.ui;
 
+import javaapplication5.ui.WelcomeScreen;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import javax.swing.table.*;
 import java.awt.*;
 import java.util.List;
+import javaapplication5.model.Appointment;
+import javaapplication5.data.ClinicData;
+import javaapplication5.model.LabTest;
+import javaapplication5.model.Patient;
+import javaapplication5.model.User;
 
 public class DoctorDashboard extends JFrame {
 

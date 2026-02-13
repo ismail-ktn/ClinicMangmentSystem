@@ -1,4 +1,5 @@
-package javaapplication5;
+package javaapplication5.model;
+
 public class Medicine {
     public String name;
     public int quantity;

@@ -1,4 +1,5 @@
-package javaapplication5;
+package javaapplication5.model;
+
 public class LabTest {
     public String testName;
     public String patientName;

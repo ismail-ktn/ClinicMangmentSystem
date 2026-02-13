@@ -1,8 +1,11 @@
-package javaapplication5;
+package javaapplication5.ui;
 
+import javaapplication5.ui.WelcomeScreen;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
+import javaapplication5.data.ClinicData;
+import javaapplication5.model.User;
 import static javax.swing.WindowConstants.DISPOSE_ON_CLOSE;
 
 public class SignupScreen extends JFrame {

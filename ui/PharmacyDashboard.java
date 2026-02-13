@@ -1,12 +1,16 @@
 
-package javaapplication5;
+package javaapplication5.ui;
 
+import javaapplication5.ui.WelcomeScreen;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
+import javaapplication5.data.ClinicData;
+import javaapplication5.model.Medicine;
+import javaapplication5.model.User;
 
 public class PharmacyDashboard extends JFrame {
 
